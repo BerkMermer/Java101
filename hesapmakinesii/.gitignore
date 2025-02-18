@@ -27,3 +27,14 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Tüm dosyaları hariç tut
+*
+
+# Ancak .java uzantılı dosyaları dahil et
+!*.java
+
+# Workspace ve IDE dosyalarını hariç tut
+.idea/
+*.iml
+workspace.xml
