@@ -1,0 +1,25 @@
+
+Verilen dizi: [16,21,11,8,12,22]
+
+[16,21,11] ve [8,12,22]
+
+[16,21] ve [11] | [8,12] ve [22]
+
+[16] [21] [11] | [8] [12] [22]
+
+
+[16] ve [21] sıralı şekilde birleşir: → [16,21]
+
+[8] ve [12] sıralı şekilde birleşir: → [8,12]
+
+[16,21] ve [11] birleşir: → [11,16,21]
+[8,12] ve [22] birleşir: → [8,12,22]
+
+[11,16,21] ve [8,12,22] birleşir: → [8,11,12,16,21,22]
+
+Big-O Gösterimi
+Merge Sort her zaman O(n log n) zaman karmaşıklığına sahiptir:
+
+Diziyi sürekli ikiye böldüğümüz için: log n
+Her seviyede tüm elemanları birleştirdiğimiz için: O(n)
+ Big-O Notasyonu: O(n log n) = O(6 log 6)

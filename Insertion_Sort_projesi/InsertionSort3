@@ -1,0 +1,32 @@
+Binary Search Tree (BST) Oluşturma Aşamaları
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+BST oluştururken ilk elemanı "root" olarak seçeriz ve her yeni elemanı küçükse sola, büyükse sağa ekleriz.
+
+İlk root belirlenir ilk elemanı 7 root=7
+
+5, 7'den küçük, bu yüzden sola eklenir.
+1, 7'den küçük → sola git
+1, 5'ten küçük → sola ekle
+8, 7'den büyük, bu yüzden sağa eklenir.
+3, 7'den küçük → sola git
+3, 5'ten küçük → sola git
+3, 1'den büyük → sağa ekle
+6, 7'den küçük → sola git
+6, 5'ten büyük → sağa ekle
+0, 7'den küçük → sola git
+0, 5'ten küçük → sola git
+0, 1'den küçük → sola ekle
+....
+
+        7
+       / \
+      5   8
+     / \    \
+    1   6    9
+   / \
+  0   3
+     / \
+    2   4
+
+

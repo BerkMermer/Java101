@@ -1,0 +1,37 @@
+Insertion Sort Aşamaları
+
+Verilen dizi: [22,27,16,2,18,6]
+
+İlk eleman yerinde kabul edilir.
+[22,27,16,2,18,6]
+2, doğru konumuna yerleştirilir.
+[2,22,27,16,18,6]
+16, doğru konumuna yerleştirilir.
+[2,16,22,27,18,6]
+18, doğru konumuna yerleştirilir.
+[2,16,18,22,27,6]
+22, doğru konumuna yerleştirilir.
+[2,6,16,18,22,27] (Sıralı dizi)
+
+
+Big O Notation Gösterimi
+Worst Case: O(n²) = n+(n-1)+(n-2)....+1
+
+Average Case: O(n²)
+
+Best Case: O(n)
+
+18 Sayısının Time Complexity Durumu
+Dizi sıralandıktan sonra [2,6,16,18,22,27] şeklindedir.
+18 sayısı ortada olduğu için "Average Case" kapsamına girer.
+
+Selection Sort İlk 4 Adım
+Verilen dizi: [7,3,5,8,2,9,4,15,6]
+
+En küçük sayı (2) en başa alınır.
+[2,3,5,8,7,9,4,15,6]
+En küçük ikinci sayı (3) zaten yerinde.
+[2,3,5,8,7,9,4,15,6]
+En küçük üçüncü sayı (4) doğru yerine yerleştirilir.
+[2,3,4,8,7,9,5,15,6]
+En küçük dördüncü sayı (5) doğru yerine yerleştirilir.
