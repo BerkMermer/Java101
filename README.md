@@ -1,21 +1,33 @@
-Java101 - Temel Java Örnekleri 🚀
-Kapsanan Konular:
+Java101 - Temel ve İleri Java Eğitim Reposu 🚀
+Kapsanan Başlıca Konular:
 
-Değişkenler & Veri Tipleri
+📌 Temel Java
+✔ Değişkenler & Veri Tipleri
+✔ Koşullu İfadeler (if-else, switch-case)
+✔ Döngüler (for, while, do-while)
+✔ Metotlar (Overloading, Recursive)
+✔ Diziler (Tek/Çok Boyutlu, foreach)
 
-Koşullu İfadeler (if-else, switch-case)
+🧠 Nesne Yönelimli Programlama (OOP)
+✔ Sınıflar ve Nesneler
+✔ Constructor (Yapıcı Metotlar)
+✔ Kalıtım (Inheritance)
+✔ Polimorfizm (Polymorphism)
+✔ Soyut Sınıflar (Abstract Classes)
+✔ Arayüzler (Interfaces)
 
-Döngüler (for, while, do-while)
+🖥️ Java Swing (GUI Programlama)
+✔ JFrame ve JPanel Kullanımı
+✔ Buton, TextField, Label Bileşenleri
+✔ Olay Yönetimi (Event Handling)
+✔ Layout Yönetimi (FlowLayout, BorderLayout)
+✔ Basit GUI Uygulamaları
 
-Metotlar & OOP Temelleri
+📂 Örnek Projeler
+Fibonacci Hesaplayıcı
 
-Diziler (Tek/Çok Boyutlu)
+Faktöriyel Bulucu
 
-Kullanım:
+Öğrenci Yönetim Sistemi (OOP)
 
-bash
-javac Main.java
-java Main
-Örnek Kodlar: Fibonacci, Faktöriyel, Dizi İşlemleri
-
-Basit ve anlaşılır Java örnekleri içeren temel eğitim reposu.
+Hesap Makinesi (Swing GUI)
